@@ -1,0 +1,24 @@
+package br.com.dup.observer.listeners;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.swing.event.ChangeListener;
+
+public class ChangeWeather {
+	private Collection listeners = new ArrayList<ChangeListener>();
+	
+	public void addListener(ChangeListeners c) throws Exception{
+		if(this.listeners.contains(c))
+			throw new Exception("Object already exist.");
+		
+		this.listeners.add(c);			
+	}
+	
+	public void removeListener(ChangeListeners c) throws Exception{
+		if(!this.listeners.contains(c))		
+			throw new Exception("Object already no exist.");
+		
+		this.listeners.add(c);
+	}
+}

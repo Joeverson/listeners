@@ -1,0 +1,27 @@
+package br.com.dup.observer.controllers;
+
+import br.com.dup.observer.listeners.ChangeListeners;
+
+public class WeatherDate implements ChangeListeners{
+	private double temperatura;
+	private double humidity;
+	private double pressure;
+	
+	public WeatherDate(double t, double h, double p){
+		this.temperatura = t;
+		this.humidity = h;
+		this.pressure = p;
+	}
+
+
+	public double getTemperatura() {
+		return temperatura;
+	}
+	public double getHumidity() {
+		return humidity;
+	}
+	public double getPressure() {
+		return pressure;
+	}
+
+}

@@ -1,0 +1,5 @@
+package br.com.dup.observer.listeners;
+
+public class ChangeWeather {
+	private Collection listeners = new ArrayList<ChangeListener>(); 
+}

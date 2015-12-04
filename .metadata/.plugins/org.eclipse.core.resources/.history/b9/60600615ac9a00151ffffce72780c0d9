@@ -1,0 +1,5 @@
+package br.com.dup.observer.controllers;
+
+public class WeatherDate {
+
+}
