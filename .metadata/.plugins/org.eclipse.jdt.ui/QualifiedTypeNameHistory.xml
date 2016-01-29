@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.EventListener"/>
+<fullyQualifiedTypeName name="br.com.dup.observer.listeners.ChangeParameter"/>
+<fullyQualifiedTypeName name="br.com.dup.observer.listeners.ChangeListeners"/>
+<fullyQualifiedTypeName name="br.com.dup.observer.listeners.ChangeWeather"/>
+<fullyQualifiedTypeName name="br.com.dup.observer.controllers.WeatherDate"/>
+</qualifiedTypeNameHistroy>

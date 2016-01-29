@@ -1,0 +1,16 @@
+package br.edu.ifpb.pdp.labirinty;
+
+import java.util.ArrayList;
+
+public class Labirinto {
+
+	public static void main(String[] args) {
+		
+		GameSettings.add(GameSettings.create("sala")); // adicionando sala e e paredes com porta
+		
+		ArrayList salas = GameSettings.getSalas();
+		
+		
+	}
+
+}

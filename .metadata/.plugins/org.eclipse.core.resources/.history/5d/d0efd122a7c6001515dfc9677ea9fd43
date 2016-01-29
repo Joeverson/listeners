@@ -1,0 +1,5 @@
+package br.edu.ifpb.pdp.labirinty;
+
+public class Wall {
+
+}

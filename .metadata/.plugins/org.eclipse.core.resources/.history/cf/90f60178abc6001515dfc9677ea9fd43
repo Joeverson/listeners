@@ -1,0 +1,18 @@
+package br.edu.ifpb.pdp.labirinty;
+
+public class GameSettings {
+	public ElementLabirinty create(String str){
+		ElementLabirinty obj;
+		
+		switch(str){
+			case "parede":
+				obj = new Wall();
+			case "porta":
+				obj = new Door();
+			case "Sala":
+				obj = new Sala(1);
+		}
+		
+		return null;		
+	}
+}

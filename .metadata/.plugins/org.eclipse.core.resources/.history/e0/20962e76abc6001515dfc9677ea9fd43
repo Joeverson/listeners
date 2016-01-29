@@ -1,0 +1,48 @@
+package br.edu.ifpb.pdp.labirinty;
+
+import java.util.ArrayList;
+
+public class Sala  implements ElementLabirinty{
+	private int numberRoom;
+	private ElementLabirinty vizinho;
+	private ArrayList<ElementLabirinty> elements;
+	
+	
+	public Sala(int number) {
+		this.setElements(new ArrayList<ElementLabirinty>());
+		this.numberRoom = number;
+	}
+
+
+	public int getNumberRoom() {
+		return numberRoom;
+	}
+
+
+	public ElementLabirinty getVizinho() {
+		return vizinho;
+	}
+
+
+	public void setVizinho(ElementLabirinty vizinho) {
+		this.vizinho = vizinho;
+	}
+
+
+	@Override
+	public void entrar() {
+		System.out.println("Opa, bem vindo a sala \n\n");
+		
+	}
+
+
+	public ArrayList<ElementLabirinty> getElements() {
+		return elements;
+	}
+
+
+	public void setElements(ElementLabirinty elements) {
+		this.elements.add(elements);
+	}
+	
+}
